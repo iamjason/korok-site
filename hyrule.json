@@ -5,6 +5,7 @@
   "tagline": "Keeps every repo in a GitLab group cloned and synced from your menu bar.",
   "status": "beta",
   "language": "Swift",
+  "icon": "https://iamjason.github.io/korok-site/assets/favicon.png",
   "platforms": [
     "macos"
   ],
