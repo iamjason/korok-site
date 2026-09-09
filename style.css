@@ -58,3 +58,15 @@ a:focus-visible { outline: 3px solid var(--mint); outline-offset: 5px; }
   .download { font-size: 16px; padding: 14px 20px; }
 }
 @media (prefers-reduced-motion: reduce) { .download { transition: none; } }
+
+.shot { padding-top: 12px; }
+.shot > h2 { font-size: 28px; line-height: 1.25; letter-spacing: -0.025em; }
+.shot-intro { color: var(--muted); max-width: 640px; margin: 12px 0 28px; }
+.shot-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 24px; }
+.shot figure { min-width: 0; }
+.shot figure a { display: block; border-radius: 14px; }
+.shot img { display: block; height: auto; }
+.shot figcaption { margin-top: 16px; font-size: 14px; line-height: 1.5; }
+.shot figcaption strong { display: block; color: var(--mint); font-size: 16px; }
+.shot figcaption span { display: block; color: var(--muted); margin-top: 4px; }
+@media (max-width: 680px) { .shot-grid { grid-template-columns: 1fr; gap: 28px; } }

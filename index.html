@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Korok — every repo in your grove, found</title>
-  <meta name="description" content="Korok is a macOS menu-bar app that keeps a GitLab group's repos synced on your Mac.">
+  <meta name="description" content="Korok is a macOS menu-bar app that keeps GitLab group repositories and personal projects synced on your Mac.">
   <link rel="icon" href="assets/favicon.png">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -20,12 +20,12 @@
 
     <section class="features">
       <div class="feature">
-        <h2>Your whole group, synced</h2>
-        <p>Pull every repo in a GitLab group from the menu bar — no terminal required.</p>
+        <h2>Your team and your projects</h2>
+        <p>Bring GitLab group repositories and personal projects into one workspace. Track either source, or both.</p>
       </div>
       <div class="feature">
         <h2>Toggle repos on and off</h2>
-        <p>Pick which repos live on disk and apply the changes in one click.</p>
+        <p>Switch between All, Group, and Personal, pick which repos live on disk, and apply changes in one click.</p>
       </div>
       <div class="feature">
         <h2>Yahaha! It just runs</h2>
@@ -37,8 +37,35 @@
       </div>
     </section>
 
-    <section class="shot">
-      <img src="assets/screenshot.png" alt="Screenshot of the Korok menu-bar popover listing a group's repos with sync toggles">
+    <section class="shot" aria-labelledby="screenshots-title">
+      <h2 id="screenshots-title">Your projects. Your kind of grove.</h2>
+      <p class="shot-intro">Keep team repositories and personal projects together, or focus on your own work. Choose Native or Grove, in light or dark.</p>
+      <div class="shot-grid">
+        <figure>
+          <a href="assets/native-light-all.png" aria-label="View full-size Native · Light screenshot">
+            <img src="assets/native-light-all.png" alt="Korok in Native Light showing the All tab with group repositories and personal projects" width="840" height="1120" loading="lazy">
+          </a>
+          <figcaption><strong>Native · Light</strong><span>Team repositories and personal projects, together.</span></figcaption>
+        </figure>
+        <figure>
+          <a href="assets/grove-dark-personal.png" aria-label="View full-size Grove · Dark screenshot">
+            <img src="assets/grove-dark-personal.png" alt="Korok in Grove Dark showing the Personal tab with three personal projects" width="840" height="1120" loading="lazy">
+          </a>
+          <figcaption><strong>Grove · Dark</strong><span>Just your projects, with the Personal filter.</span></figcaption>
+        </figure>
+        <figure>
+          <a href="assets/native-dark-personal.png" aria-label="View full-size Native · Dark screenshot">
+            <img src="assets/native-dark-personal.png" alt="Korok in Native Dark showing the Personal tab with three personal projects" width="840" height="1120" loading="lazy">
+          </a>
+          <figcaption><strong>Native · Dark</strong><span>Your personal workspace after dark.</span></figcaption>
+        </figure>
+        <figure>
+          <a href="assets/grove-light-all.png" aria-label="View full-size Grove · Light screenshot">
+            <img src="assets/grove-light-all.png" alt="Korok in Grove Light showing the All tab with group repositories and personal projects" width="840" height="1120" loading="lazy">
+          </a>
+          <figcaption><strong>Grove · Light</strong><span>The whole workspace in a lighter Grove.</span></figcaption>
+        </figure>
+      </div>
     </section>
 
     <footer>
